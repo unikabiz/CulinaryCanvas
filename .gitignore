@@ -1,0 +1,58 @@
+# PHP specific files
+/vendor/
+composer.phar
+composer.lock
+.phpunit.result.cache
+phpunit.xml
+
+# IDE specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+*.komodoproject
+.komodotools/
+*.kpf
+.buildpath
+.project
+.settings/
+nbproject/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Application specific files
+/node_modules/
+/public/hot/
+/public/storage/
+/storage/*.key
+/.env
+/.env.backup
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+
+# Cache and logs
+/var/cache/*
+/var/logs/*
+/logs/*
+*.log
+*.cache
+
+# Uploads and user content
+/uploads/
+/public/uploads/
+
+# Config files with sensitive information
+config.php
+database.php
+settings.php
